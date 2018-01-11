@@ -59,7 +59,7 @@ Iniciem el MySQL:
 >systemctl start mysql  
   
 I comprovem que esta funcionant:  
->  ![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/12.PNG)  
+>show status like 'wsrep%';
   
 ### Explica El Bootstrapping the first node i el concepte split-brain  
   
