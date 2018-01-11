@@ -1,5 +1,5 @@
 ### Esquema d'instal·lació d'un MySQL Cluster amb  4 màquines virtuals amb 0,5/1 GB de RAM i CentOS Desactiva el firewall o permet la connexió als ports 3306, 4444, 4567, 4568
-foto
+>  ![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/0.PNG)  
 ### IPs de cada Node (X són els 2 últim dígits del DNI d'un dels components del grup.):
 &nbsp;&nbsp;Node 1: nodeid = 1, hostname=percona1, IP=192.168.14.71  
 &nbsp;&nbsp;Node 2: nodeid = 2, hostname=percona2, IP=192.168.14.72  
@@ -70,7 +70,8 @@ Bootstrapping implica que es pot inicialitzar el node sense cap adreça coneguda
 
 
 __SPLIT-BRAIN__
-
   
+Split-brain es un estat que passa quan hi ha dades o disponibilitats inconsistents originades des del manteniment de dos datasets (conjunts de dades) separats amb superposició, ja sigui perquè no es comuniquen o sincronitzen les dades els servidors a traves de la xarxa.  
+
 ***
 [Torna enrere](https://github.com/Josep88/MP10UF2-A5)
