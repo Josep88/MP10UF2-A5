@@ -64,6 +64,9 @@ I comprovem que esta funcionant:
 ### Explica El Bootstrapping the first node i el concepte split-brain  
   
 __BOOTSTRAPPING THE FIRST NODE__
+  
+El bootstrapping es el primer node que s’ha de inicialitzar que conté totes les dades que es vol que es repliquin als altres nodes.  
+Bootstrapping implica que es pot inicialitzar el node sense cap adreça coneguda del clúster. Si la variable ‘wsrep_cluster_address’ esta buida, el Percona XtraDB Cluster interpreta que es el primer node que inicialitza el clúster.  
 
 
 __SPLIT-BRAIN__
