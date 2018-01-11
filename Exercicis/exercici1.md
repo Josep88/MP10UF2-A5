@@ -50,7 +50,7 @@ I ho podem comprovar per veure que el cluster s'ha bootstrapetjat:
 Hi ha que crear l'usuari per fer les transferències del state snapshot:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/10.PNG)  
   
-__CONFIGURACIÓ ALs ALTRES NODES__  
+__CONFIGURACIÓ ALS ALTRES NODES__  
 
 Fitxer de configuració /etc/percona-xtradb-cluster.conf.d/wsrep.cnf:  
 >  ![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici1/11.PNG)  
