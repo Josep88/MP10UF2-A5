@@ -61,6 +61,8 @@ Iniciem el MySQL:
 I comprovem que esta funcionant:  
 >show status like 'wsrep%';
   
+Ara els nodes ja estan replicant i qualsevol modificació a un d'ells es compartira amb tots els altres.
+  
 ### Explica El Bootstrapping the first node i el concepte split-brain  
   
 __BOOTSTRAPPING THE FIRST NODE__
