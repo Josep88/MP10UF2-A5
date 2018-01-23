@@ -63,7 +63,7 @@ I comprovem que esta funcionant:
   
 Ara els nodes ja estan replicant i qualsevol modificació a un d'ells es compartira amb tots els altres.
   
-Nota: Si no s'apaguen bé els nodes, i no es pot reiniciar el bootstrap, hi ha que iniciar-los en el ordre invers que es van apagar, o sino forçar al bootstrap a iniciar-se modificant el fitxer __/var/lib/mysql/grastate.dat__ i posar el parametre __safe_to_bootstrap__ a 1.
+**Nota**: Si no s'apaguen bé els nodes, i no es pot reiniciar el bootstrap, hi ha que iniciar-los en el ordre invers que es van apagar, o sino forçar al bootstrap a iniciar-se modificant el fitxer _/var/lib/mysql/grastate.dat_ i posar el parametre _safe_to_bootstrap_ a 1.
   
   
 ### Explica El Bootstrapping the first node i el concepte split-brain  
