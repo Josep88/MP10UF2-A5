@@ -8,7 +8,7 @@
 [ProxySQL Official Wiki - Global Variables](https://github.com/sysown/proxysql/blob/master/doc/global_variables.md)  
   
 ***
-|:-:|:-:|:-:|
-|[Anterior](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/exercici2.md)   |[Inici](https://github.com/Josep88/MP10UF2-A5)   |   |
-  
+
+|[Anterior](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/exercici2.md)   |[Inici](https://github.com/Josep88/MP10UF2-A5)   |
+|:-:|:-:|  
   
