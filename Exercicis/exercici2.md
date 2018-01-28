@@ -57,28 +57,28 @@ I ara ja podem entrar amb aquest usuari directament al ProxySQL i aquest ens aut
   
 ### Configura el necesari per fer que les SELECTS vagin a un hostgroup i la resta de comandes a un altre.
   
-Modifiquem 2 nodes del cluster a un altre hostgroup:
-20
-
-Comprovem si el hostgroup per defecte del usuari es correcte, sino els modifiquem:
-22
-
-I activem aquests canvis i els guardem per fer-los permanents:
-21
-
-Introduïm les regles que volem (una per mantenir les SELECT FOR UPDATE al hostgrup 0, i un altre per enviar totes les SELECT al hostgroup 1):
-23
-
-Ho comprovem:
-24
-
-I guardem els canvis per fer-los permanents:
-25
-
-Per tant, amb aquests canvis les rutes quedarien aixi:
-1. Totes les SELECT FOR UPDATE al hostgroup 0.
-2. Totes les altres SELECT al hostgroup 1.
-3. La resta al hostgroup 1.
+Modifiquem 2 nodes del cluster a un altre hostgroup:  
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/20.PNG)  
+  
+Comprovem si el hostgroup per defecte del usuari es correcte, sino els modifiquem:  
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/22.PNG)  
+  
+I activem aquests canvis i els guardem per fer-los permanents: 
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/21.PNG) 
+  
+Introduïm les regles que volem (una per mantenir les SELECT FOR UPDATE al hostgrup 0, i un altre per enviar totes les SELECT al hostgroup 1):  
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/23.PNG)   
+  
+Ho comprovem:  
+>![24](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/1.PNG)  
+  
+I guardem els canvis per fer-los permanents:  
+>![25](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/1.PNG)  
+  
+Per tant, amb aquests canvis les rutes quedarien així:  
+1. Totes les SELECT FOR UPDATE al hostgroup 0.  
+2. Totes les altres SELECT al hostgroup 1.  
+3. La resta al hostgroup 1.  
   
 ***
 |[Anterior](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/exercici1.md)|[Inici](https://github.com/Josep88/MP10UF2-A5)|[Següent](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/webgrafia.md)|
