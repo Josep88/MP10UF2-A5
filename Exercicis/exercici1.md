@@ -79,4 +79,5 @@ __SPLIT-BRAIN__
 Split-brain es un estat que passa quan hi ha dades o disponibilitats inconsistents originades des del manteniment de dos datasets (conjunts de dades) separats amb superposició, ja sigui perquè no es comuniquen o sincronitzen les dades els servidors a traves de la xarxa.  
 
 ***
-[Torna enrere](https://github.com/Josep88/MP10UF2-A5)
+[Inici](https://github.com/Josep88/MP10UF2-A5)  
+[Següent](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/exercici2.md)  
