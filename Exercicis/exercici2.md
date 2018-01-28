@@ -55,6 +55,8 @@ Carreguem les dades al RUNTIME:
   
 I ara ja podem entrar amb aquest usuari directament al ProxySQL i aquest ens autoredireccionarà al node que toca.  
   
+### Configura el necesari per fer que les SELECTS vagin a un hostgroup i la resta de comandes a un altre.
+  
   
 ***
 |[Anterior](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/exercici1.md)|[Inici](https://github.com/Josep88/MP10UF2-A5)|[Següent](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/webgrafia.md)|
