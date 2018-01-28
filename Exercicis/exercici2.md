@@ -4,41 +4,41 @@ Poso la maquina del balancejador a la xarxa dels nodes del clúster.
 IP 192.168.14.75  
   
 Instal·lem proxysql:  
-![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/1.PNG)   
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/1.PNG)   
   
 Instal·lem repositori del percona-xtradb-cluster:  
-![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/2.PNG)   
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/2.PNG)   
   
 Instal·lem percona-xtradb-cluster:  
-![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/3.PNG)   
-![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/4.PNG)   
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/3.PNG)   
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/4.PNG)   
   
 Iniciem mysql i proxysql:  
 > systemctl start mysql  
 > systemctl start proxysql  
   
 Fitxer de configuració /etc/proxysql-admin.cnf:  
-6
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/6.PNG)   
   
 Entrem amb aquestes credencials:  
 > mysql -u admin -padmin -h 127.0.0.1 -P6032  
-![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/5.PNG)   
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/5.PNG)   
   
 Podem veure les bases de dades i les taules del ProxySQL:  
-![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/7.PNG)   
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/7.PNG)   
   
 Inserim els nodes del clúster al hostgrup del balancejador que els permetrà llegir i escriure el tràfic:  
-![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/8.PNG)   
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/8.PNG)   
 
 Podem comprovar els nodes:  
 > SELECT * FROM mysql_servers;  
-![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/9.PNG)   
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/9.PNG)   
   
 Crear l'usuari amb el que entrarem tant al proxy...  
 > INSERT INTO mysql_users (username,password) VALUES ('sbuser','sbpass');  
 
 ...Com a un dels nodes:  
-![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/10.PNG)   
+>![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/10.PNG)   
 
 Carreguem les dades al RUNTIME:  
 > LOAD MYSQL USERS TO RUNTIME;  
