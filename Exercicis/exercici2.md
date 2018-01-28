@@ -70,10 +70,10 @@ Introduïm les regles que volem (una per mantenir les SELECT FOR UPDATE al hostg
 >![1](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/23.PNG)   
   
 Ho comprovem:  
->![24](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/1.PNG)  
+>![24](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/24.PNG)  
   
 I guardem els canvis per fer-los permanents:  
->![25](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/1.PNG)  
+>![25](https://raw.githubusercontent.com/Josep88/MP10UF2-A5/master/img/exercici2/25.PNG)  
   
 Per tant, amb aquests canvis les rutes quedarien així:  
 1. Totes les SELECT FOR UPDATE al hostgroup 0.  
