@@ -6,6 +6,8 @@
 [Load balancing with ProxySQL](https://www.percona.com/doc/percona-xtradb-cluster/5.7/howtos/proxysql.html#load-balancing-with-proxysql)  
 [ProxySQL Official Wiki](https://github.com/sysown/proxysql/wiki)  
 [ProxySQL Official Wiki - Global Variables](https://github.com/sysown/proxysql/blob/master/doc/global_variables.md)  
+[MySQL read/write split with ProxySQL](http://www.proxysql.com/blog/configure-read-write-split)  
+[Mini HOW TO on ProxySQL Configuration](https://github.com/sysown/proxysql/wiki/ProxySQL-Configuration)  
   
 ***
 
