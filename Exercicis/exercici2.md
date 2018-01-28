@@ -57,4 +57,7 @@ I ara ja podem entrar amb aquest usuari directament al ProxySQL i aquest ens aut
   
   
 ***
-[Torna enrere](https://github.com/Josep88/MP10UF2-A5)
+[Anterior](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/exercici1.md)  
+[Inici](https://github.com/Josep88/MP10UF2-A5)  
+[Següent](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/webgrafia.md)  
+
