@@ -78,7 +78,7 @@ I guardem els canvis per fer-los permanents:
 Per tant, amb aquests canvis les rutes quedarien així:  
 1. Totes les SELECT FOR UPDATE al hostgroup 0.  
 2. Totes les altres SELECT al hostgroup 1.  
-3. La resta al hostgroup 1.  
+3. La resta al hostgroup 0.  
   
 ***
 |[Anterior](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/exercici1.md)|[Inici](https://github.com/Josep88/MP10UF2-A5)|[Següent](https://github.com/Josep88/MP10UF2-A5/blob/master/Exercicis/webgrafia.md)|
